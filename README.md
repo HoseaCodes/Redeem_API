@@ -31,3 +31,8 @@ Suggested setup
 ### Contributing
 
 Review how here [contribution](CONTRIBUTION.md)
+
+### Python Packages
+
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Requests](https://docs.python-requests.org/en/master/)
