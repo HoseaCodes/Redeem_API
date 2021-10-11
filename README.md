@@ -4,22 +4,37 @@
 
 Suggested setup
 
-- [venv](https://docs.python.org/3/library/venv.html)
+- [Virtual Env - venv](https://docs.python.org/3/library/venv.html)
 
-  Create virtual environment folder
-  `bash python3 -m venv venv `
+  - Create virtual environment folder
 
-  Activate VENV
-  `bash source venv/bin/activate `
+  ```bash
+  python3 -m venv venv
+  ```
 
-  Install packages
-  `bash pip install -r requirements.txt `
+  - Activate VENV
 
-  Check Packages
-  `bash pip list --local `
+  ```bash
+  source venv/bin/activate
+  ```
 
-  Deactivate VENV
-  `bash deactivate `
+  - Install packages
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+  - Check Packages
+
+  ```bash
+  pip list --local
+  ```
+
+  - Deactivate VENV
+
+  ```bash
+  deactivate
+  ```
 
   Want to run locally checkout the [Requirements file](requirements.txt)
 
