@@ -75,5 +75,15 @@ def main(position, location):
         writer.writerow(['JobTitle', 'Company', 'Location', 'PostDate', 'ExtractDate', 'Summary', 'Salary', 'JobUrl'])
         writer.writerows(records)
 
+def getUserInput():
+    position = input("What position are you looking for?\n")
+    print(f"Great you are looking for a {position}. We still need a little more info.")
+    location = input("Where would you like to work?\n")
+    print(f"Gotcha, we will find a {position} in {location}.")
+    info = {"position": position, "location": location}
+    return info
+
+info = getUserInput()
+
 # run the main program
-main('software developer', 'houston tx')
+main(info['position'], info['location'])
